@@ -32,7 +32,7 @@ body {
   overflow: hidden;
   & .box1 {
     position: absolute;
-    content: '';
+    content: "";
     height: 16%;
     background-color: #fff;
     width: 30%;
@@ -42,10 +42,11 @@ body {
     &:before,
     &:after {
       position: absolute;
-      content: '';
+      content: "";
       width: 48px;
       aspect-ratio: 1;
-      background:radial-gradient(circle 48px at top left, #0000 98%, #fff) top left;
+      background: radial-gradient(circle 48px at top left, #0000 98%, #fff) top
+        left;
     }
     &:before {
       bottom: 0;
@@ -58,7 +59,7 @@ body {
   }
   & .box2 {
     position: absolute;
-    content: '';
+    content: "";
     height: 14%;
     background-color: #fff;
     width: 25%;
@@ -68,10 +69,11 @@ body {
     &:before,
     &:after {
       position: absolute;
-      content: '';
+      content: "";
       width: 48px;
       aspect-ratio: 1;
-      background:radial-gradient(circle 48px at top left, #0000 98%, #fff) top left;
+      background: radial-gradient(circle 48px at top left, #0000 98%, #fff) top
+        left;
     }
     &:before {
       bottom: 0;
@@ -186,7 +188,7 @@ body {
   border: 2.5px solid white;
   border-radius: 50%;
 }
-.know-text{
+.know-text {
   font-size: large;
 }
 .steps {
@@ -273,10 +275,11 @@ body {
 .wrapper .owl-nav {
   display: block !important;
 }
-.wrapper .owl-dot.active span{
+.wrapper .owl-dot.active span {
   width: 30px !important;
 }
-.wrapper .owl-prev, .wrapper .owl-next {
+.wrapper .owl-prev,
+.wrapper .owl-next {
   position: absolute;
   top: -30%;
   height: 60px;
@@ -289,7 +292,7 @@ body {
   background-color: rgb(228, 228, 228) !important;
 }
 .wrapper .owl-prev:hover {
-  color : black !important;
+  color: black !important;
 }
 .wrapper .owl-next {
   right: 3%;
@@ -312,7 +315,7 @@ body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyByBGav19wds7Yp0ffB0lPbCmRGvMK4zFjA&s");
 }
 .owl-carousel .item > .item_image_2 {
-   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7H6wYO3ATCmJVxHUGrp-nkQrEhALNPgESbA&s");  
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7H6wYO3ATCmJVxHUGrp-nkQrEhALNPgESbA&s");
 }
 .owl-carousel .item > .item_image_3 {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvdbs2kOtth6Of3uIJm5dLhlR-0StH5A6hsw&s");
@@ -341,7 +344,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.popular_tour_review > i{
+.popular_tour_review > i {
   margin: 5px;
 }
 .subheader {
@@ -530,12 +533,12 @@ body {
   width: 200px;
 }
 @media only screen and (max-width: 723px) {
-  .navbar_links{
+  .navbar_links {
     display: none;
   }
 }
 @media only screen and (max-width: 774px) {
-  .only_plane{
+  .only_plane {
     display: none;
   }
 }
@@ -550,30 +553,35 @@ body {
   .plane_image > .image_inside {
     height: 600px;
   }
-  .owl-carousel .item{
+  .owl-carousel .item {
     width: 90%;
   }
   .headings {
     top: 28%;
     left: 25%;
   }
-.p-2, .p-3, .p-4, .p-5 {
-  font-size: 40px;
+  .p-2,
+  .p-3,
+  .p-4,
+  .p-5 {
+    font-size: 40px;
+  }
+  .headings-button {
+    margin-top: 40px;
+  }
 }
-.headings-button {
-  margin-top: 40px;
-}
+@media only screen and (max-width: 1110px) {
+  .box1, .box2, .know {
+    display: none;
+  }
 }
 @media only screen and (max-width: 1480px) {
-  .only_plane{
+  .only_plane {
     top: 20%;
     height: 500px;
     width: 500px;
   }
-  .box1 , .box2, .know{
-    display: none;
-  }
-  .socials{
+  .socials {
     margin-top: 50px;
     flex-direction: column;
     gap: 20px;
@@ -583,78 +591,79 @@ body {
     height: 80px;
     width: 200px;
   }
-  .features{
+  .features {
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
-  .feature-1, .feature-3{
+  .feature-1,
+  .feature-3 {
     align-items: center;
     width: 80%;
     border-radius: 30px;
   }
-  .feature-2{
+  .feature-2 {
     align-items: center;
-    height: 450px;
+    height: 420px;
     width: 78%;
     border-radius: 30px;
   }
-  .booking{
+  .booking {
     margin: 0;
     margin-bottom: 50px;
     align-items: center;
     flex-direction: column;
     gap: 30px;
   }
-  .box-1{
+  .box-1 {
     margin: 0;
     width: 70%;
     padding: 0 5%;
   }
-  .box-2{
+  .box-2 {
     width: 70%;
     padding: 8px 5%;
   }
-  .footer{
+  .footer {
     margin-bottom: 50px;
     flex-direction: column;
     align-items: center;
     gap: 5px;
   }
-  .footer-img{
+  .footer-img {
     margin: 0;
     margin-bottom: 50px;
     width: 90%;
-
   }
-  .footer-sec{
+  .footer-sec {
     margin: 27px auto;
     flex-direction: column;
     align-items: center;
   }
-  .footer-texts{
+  .footer-texts {
     transform: none;
   }
   .footer-text1,
   .footer-text3,
   .footer-text5 {
-  margin: 0;
-  font-size: x-large;
+    margin: 0;
+    font-size: x-large;
   }
- .footer-text3{
-  text-align: center;
- }
- .footer-text2,
- .footer-text4 {
-  margin: 0;
-  margin-left: 10%;
-  font-size: large;
-  width: auto;
-}
-.owl-next, .owl-prev{
-  visibility: hidden;
-}
-.heading{
-  margin-top: 0px;
-}
+  .footer-text3 {
+    text-align: center;
+  }
+  .footer-text2,
+  .footer-text4 {
+    margin: 0;
+    margin-left: 10%;
+    font-size: large;
+    width: auto;
+  }
+  .owl-next,
+  .owl-prev {
+    visibility: hidden;
+  }
+  .heading {
+    margin-top: 0px;
+  }
 }
